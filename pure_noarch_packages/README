@@ -1,0 +1,9 @@
+These are some helper bits for constructing a subset of F23 containing only
+"pure" noarch packages.  These are packages built from SRPMs that only
+produce noarch package output.  SRPMs that produce a mix of noarch and
+binary packages are _not_ candidates for this repo.
+
+This is meant to be run against the GA release of F23, not updates.
+
+The script has some hardcoded paths that you will need to adapt to the
+details of your local mirror of the F23 GA repo.
